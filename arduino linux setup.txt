@@ -1,0 +1,21 @@
+linux arduino setup
+
+http://ubuntovod.ru/soft/arduino-ubuntu.html
+
+Установка Arduino IDE
+Для установки Arduino IDE воспользуйтесь командами ниже.
+
+Для Ubuntu i386:
+
+sudo apt-get install gcc-avr avr-libc openjdk-6-jre
+wget http://arduino.googlecode.com/files/arduino-1.0-linux.tgz
+tar -xzvf arduino-1.0-linux.tgz
+cd arduino-1.0
+./arduino
+Для Ubuntu amd64:
+
+sudo apt-get install gcc-avr avr-libc openjdk-6-jre
+wget http://arduino.googlecode.com/files/arduino-1.0-linux64.tgz
+tar -xzvf arduino-1.0-linux64.tgz
+cd arduino-1.0
+./arduino
